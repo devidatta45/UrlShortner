@@ -4,10 +4,15 @@ Tech Used: ZIO, Redis, Akka-http, Circe, Cats, Scalatest
 
 ### Pre-requisite
 
-As the project is using Redis database. Therefore, the db needs to be installed and
+1. Sbt needs to be installed in the system.
+2. Docker needs to be installed and running in the background.
+
+3. As the project is using Redis database. Therefore, the db needs to be installed and
 run before running the project
 
 Command: `docker run --name my-redis -p 6379:6379 -d redis`
+
+
 
 After that go to the project path and open sbt console by hitting
 ### `sbt`
