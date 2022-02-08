@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "496a1095-4110-46f5-97e4-824450ef5cbe",
+		"name": "url-shortner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Short url",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uri\":\"https://www.lala.com/\"\n}"
+				},
+				"url": {
+					"raw": "localhost:9000/api/shorten",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"shorten"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Original url",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/api/XX9ceEQxcQ",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"XX9ceEQxcQ"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Statistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/apis/stats/XX9ceEQxcQ",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"apis",
+						"stats",
+						"XX9ceEQxcQ"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

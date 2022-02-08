@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/devidattamohapatra/UrlShortner/target/scala-2.13/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InMemoryShortUrlStorage$State.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ShortUrlCodeServiceSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InMemoryShortUrlStorage$State$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ShortUrlCodeServiceSpec$TestEnvironment$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generators$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InMemoryShortUrlStorage$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UrlShortServiceSpec$TestEnvironment$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InMemoryShortUrlStorage.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UrlStatisticsServiceSpec$TestEnvironment$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InMemoryShortUrlStorage$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UrlStatisticsServiceSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UrlShortServiceSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Generators.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/devidattamohapatra/UrlShortner/target/scala-2.13/test-classes.bak[0m
