@@ -44,10 +44,7 @@ object UrlShortService {
     override def getStatistics(code: String): ZIO[ShortUrlCodeService with UrlStatisticsService with ShortUrlStorage, ShortUrlDomainError, Option[Statistics]] = {
       for {
         statsOpt <- ZIO.accessM[UrlStatisticsService with ShortUrlStorage](_.urlStatisticsService.getStatistics(codeAsStatsKey(code)))
-        result = statsOpt match {
-          case Some(callCount) => Some(Statistics(callCount))
-          case None => None
-        }
+        result = statsOpt.map(callCount => Statistics(callCount))
       } yield result
     }
   }
