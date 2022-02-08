@@ -3,5 +3,3 @@ project/target/**
 
 .idea
 .DS_Store
-
-frontend/node_modules
